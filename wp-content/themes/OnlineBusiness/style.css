@@ -1,0 +1,93 @@
+/*
+Theme Name: Online Business Theme
+Description: This the theme for the online business website
+Author: Mark Christian Biglang-awa
+Author URI: https://markchris.000webhostapp.com
+Version: 1.0
+*/
+body{
+    color: #4d4d4d;
+    line-height: 1.5;
+    font-family: Arial, 'Lucida Sans Unicode';
+    font-size: 12px;
+    text-align: left;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    clear: both;
+    width: 90%;
+}
+
+/*site header*/
+.site-header img{
+    width: 350px;
+    height: 75px;
+}
+.site-header {
+    width: 100%;
+    height: 115px;
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+
+/*Search Bar*/
+.search-bar{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.search-bar label{
+    position: absolute;
+    left: -9999px;
+}
+.search-bar #searchsubmit{
+    padding: 5px 14px;
+    color: #fff;
+    background-color: #75BBF5;
+    border: none;
+    vertical-align: top;
+}
+.search-field{
+    vertical-align: top;
+    padding: 3px 0;
+    width: 300px;
+}
+
+/*site-nav*/
+.site-nav{
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #75BBF5;
+    font-size: 15px;
+}
+.site-nav ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    float: left;
+    padding: 0;
+}
+.site-nav ul li{
+    display: inline
+}
+.site-nav a:link,
+.site-nav a:visited{
+    color: #75BBF5;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+    text-decoration: none;
+}
+.site-nav a:hover{
+    background-color: #75BBF5;
+    color: #ffffff;
+}
+.site-nav ul li.current-menu-item a:link,
+.site-nav ul li.current-menu-item a:visited,
+.site-nav ul li.current-page-ancestor a:link,
+.site-nav ul li.current-page-ancestor a:visited{
+    background-color: #75BBF5;
+    color: #ffffff;     
+}
