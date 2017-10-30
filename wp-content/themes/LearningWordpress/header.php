@@ -67,7 +67,7 @@
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="<?php echo site_url('ezshop-3'); ?>">EZshop</a></li>
+                    <li class="active"><a href="<?php echo site_url('shop'); ?>">Shop</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Womens' Fashion <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><h3>Womens' Fashion</h3></li>

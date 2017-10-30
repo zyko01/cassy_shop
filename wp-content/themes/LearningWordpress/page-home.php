@@ -62,6 +62,14 @@ if(have_posts()) :
             <a class="next" onclick="plusSlides(1)">&#10095;</a>     -->
             </div>
         </div>
+        <?php
+            array(
+                'per_page' => '12',
+                 'columns' => '4',
+                 'orderby' => 'date',
+                 'order' => 'desc'
+            )
+        ?>
         <?php the_content();?>
     </article>
     <?php endwhile;
